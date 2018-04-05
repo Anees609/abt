@@ -6,5 +6,5 @@ from __future__ import unicode_literals
 import frappe
 import unittest
 
-class TestF01Pre-Quote(unittest.TestCase):
+class TestF01PreQuote (unittest.TestCase):
 	pass
