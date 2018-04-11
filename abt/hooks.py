@@ -7,7 +7,7 @@ app_title = "ABT"
 app_publisher = "anees"
 app_description = "projact 1"
 app_icon = "octicon octicon-file-directory"
-app_color = "'red'"
+app_color = "#e74c3c"
 app_email = "algryanee.anees@gmail.com"
 app_license = "MIT"
 
@@ -62,6 +62,7 @@ app_license = "MIT"
 # See frappe.core.notifications.get_notification_config
 
 # notification_config = "abt.notifications.get_notification_config"
+notification_config = "abt.config.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -119,4 +120,12 @@ app_license = "MIT"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "abt.event.get_events"
 # }
+
+
+website_context = {
+	"favicon": 	"/assets/abt/images/bmw.png",
+	"splash_image": "/assets/abt/images/bmw1.svg"
+}
+
+
 
